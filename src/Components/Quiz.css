@@ -1,0 +1,110 @@
+.Header{
+    color: rgb(78, 114, 230);
+    font-size: 50px;
+    margin-bottom: 10%;
+}
+
+.questionCard{
+    width:50%;
+    min-height: 200px;
+    height: min-content;
+    background-color: rgb(78, 114, 230);
+    border-radius: 10px;
+    margin-left: 25%;
+    padding: 20px;
+    display:flex;
+}
+
+.question{
+    color:white;
+    font-size: 30px;
+    width: 50%;
+}
+
+.options{
+    width: 50%;
+    height: auto;
+}
+
+button{
+    width: 100%;
+    font-size: 16px;
+    background-color:rgb(118, 171, 241);
+    color:white;
+    border-radius: 5px;
+    display:flex;
+    padding-left:20px;
+    padding-right:20px;
+    padding-top:10px;
+    padding-bottom:10px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    margin-bottom:10px;
+    cursor:pointer;
+}
+
+button:hover{
+    background-color: rgb(62, 92, 132);
+}
+
+.correct{
+    background-color: rgb(71, 203, 71);
+}
+
+.wrong{
+    background-color: rgb(203, 71, 71);
+}
+
+.TopSection{
+    width:66%;
+    margin-left: 18%;
+    display:flex;
+    justify-content: space-around;
+    font-weight: bold;
+}
+
+.questionBox{
+    width: 25%;
+    margin-bottom:10px;
+    font-size: 20px;
+}
+
+.scoreBox{
+    width: 25%;
+    font-size: 20px;
+    margin-bottom:10px;
+}
+
+.timeBox{
+    width: 25%;
+    font-size: 20px;
+    margin-bottom:10px;
+    color:rgb(138, 92, 236)
+}
+
+.resultCard{
+    width:10%;
+    min-height: 120px;
+    height: min-content;
+    background-color: rgb(78, 114, 230);
+    border-radius: 10px;
+    margin-left: 44%;
+    padding: 20px;
+}
+
+.result{
+    color:white;
+    width: 100%;
+    text-align: center;
+}
+
+.finalScore{
+    width: 100%;
+    font-size: 20px;
+    color:white;
+    border-radius: 5px;
+    margin-bottom:10px;
+    text-align: center;
+}
